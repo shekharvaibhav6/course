@@ -1,5 +1,7 @@
 import { Routes } from 'react-router-dom'
-import './App.css'
+import { Route } from 'react-router-dom';
+
+import HomePage from './Pages/HomePage';
 
 import Footer from './Components/Footer'
 
@@ -8,10 +10,11 @@ function App() {
 
   return (
     <>
-      {/* <Routes> */}
-        {/* <Route path="/" element={<Home/>}></Route> */}
-      {/* </Routes> */}
-      <Footer />
+      <Routes>
+        <Route path="/" element={<HomePage/>}></Route>
+      </Routes>
+      
+     
     </>
   )
 }
