@@ -1,5 +1,5 @@
 import React from "react";
-import CarouselSlide from "../Components/CarouselSlide";
+
 import HomeLayout from "../Layouts/HomeLayout";
 import aboutMainImage from '../Assets/Images/aboutMainImage.png'
 import apj from "../Assets/Images/QuotesPersonalityImage/apj.png"
