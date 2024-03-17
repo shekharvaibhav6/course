@@ -1,4 +1,4 @@
-import React from "react";
+import { React } from "react";
 import { useNavigate } from "react-router-dom";
 
 function NotFound(){
@@ -21,6 +21,7 @@ function NotFound(){
                 
             </button>
         </div>
+        
     )
 }
 export default NotFound;
